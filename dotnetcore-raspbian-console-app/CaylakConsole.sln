@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaylakConsole", "CaylakConsole\CaylakConsole.csproj", "{DAB945E2-2A04-423B-AD96-F55C929842BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB945E2-2A04-423B-AD96-F55C929842BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB945E2-2A04-423B-AD96-F55C929842BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB945E2-2A04-423B-AD96-F55C929842BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB945E2-2A04-423B-AD96-F55C929842BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E457E4F5-1965-4D92-99AA-ED2846198705}
+	EndGlobalSection
+EndGlobal

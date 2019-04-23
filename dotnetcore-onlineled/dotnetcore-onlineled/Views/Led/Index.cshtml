@@ -1,0 +1,22 @@
+﻿@{
+    //kullanıcı aksiyonu sonunda bir mesaj var ise burada onu alıyoruz
+    var ledDurumu = ViewBag.LedDurumu;
+}
+<h1>Online Led Yakma Projesi</h1>
+<div>
+    <p>
+        Led Işığını:
+    </p>
+    <a href="@Url.Action("LedAc")" class="btn btn-success" role="button">Aç</a>
+    <a href="@Url.Action("LedKapat")" class="btn btn-danger" role="button">Kapat</a>
+</div>
+<br/>
+@*
+    Kullanıcıya gösterilecek bir mesaj olması durumunda kullanıcıya gösteriyoruz.
+*@
+@if (!string.IsNullOrEmpty(ledDurumu))
+{
+    <div class="alert alert-primary" role="alert">
+        <b>Bilgi:</b> @ledDurumu
+    </div>
+}
